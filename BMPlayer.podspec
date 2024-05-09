@@ -31,7 +31,7 @@ s.subspec 'Full' do |full|
 
     full.dependency 'BMPlayer/Core'
     full.dependency 'SnapKit', '~> 5.7.1'
-    full.dependency 'NVActivityIndicatorView', '~> 4.7.0'
+    full.dependency 'NVActivityIndicatorView'
 end
 
 s.subspec 'CacheSupport' do |cache|
